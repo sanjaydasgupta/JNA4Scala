@@ -3,6 +3,7 @@ JNA for Scala (JNA4Scala)
 
 Most Java APIs and libraries can be [used seamlessly from Scala](http://www.artima.com/pins1ed/combining-scala-and-java.html). But [JNA](https://github.com/twall/jna) is a little different. When using JNA, a [Scala](http://www.scala-lang.org/) class can not be used (as a Java class can) to emulate a [C struct](http://en.wikipedia.org/wiki/Struct_(C_programming_language)) passed to (or returned from) a native function. JNA for Scala (JNA4Scala) solves this problem by providing a modified version of JNA's _Structure_ class that works for client code written in Scala. The modified _Structure_ remains backward compatible, and can be used in Java projects as well.
 
+The changes made to _Structure.java_ can be seen [here](https://github.com/sanjaydasgupta/JNA4Scala/commit/064b02c34f947c1c13920208a8df91d3fea2b427).
 
 Projects Using JNA4Scala
 ========================
